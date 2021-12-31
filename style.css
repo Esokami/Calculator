@@ -1,0 +1,58 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(89, 107, 124);
+}
+
+#container {
+    margin: auto;
+    width: 25%;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: medium;
+    margin: 5px;
+    background-color: rgb(110, 111, 112);
+    color: white;
+}
+
+.operator {
+    background-color: rgb(80, 168, 142);
+    color: white;
+}
+
+#equals {
+    width: 240px;
+    border-radius: 30px;
+    background-color: rgb(171, 177, 184);
+    color: black;
+}
+
+#calculator {
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#display {
+    width: 220px;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
